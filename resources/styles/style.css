@@ -1,1 +1,193 @@
+/***Universal Styles***/
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+}
 
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.imgcontainer {
+    display: flex;
+    flex: 1;
+}
+
+img {
+    display: block;
+    overflow: hidden;
+}
+
+/***Desktop Styles***/
+
+/**Header**/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.logo p {
+    line-height: 2rem; 
+    color: darkgray;
+}
+
+.logo span {
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+nav .divider {
+    width: 1rem;
+    height: 4rem;
+    background-color: rgb(137, 226, 226);
+}
+
+/**Banner**/
+
+.banner {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.banner .imgcontainer {
+    width: 60%;
+}
+
+.banner img {
+    padding: 2rem 1.5rem;
+}
+
+.snippet {
+    width: 40%;
+    padding-right: 8rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.banner button {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: seashell;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1.5rem;
+}
+
+.banner button:hover {
+    background-color: chocolate;
+}
+
+/**Informational**/
+
+.info {
+    display: flex;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+}
+
+.info p {
+    font-size: 1.25rem;
+}
+
+.info a {
+    color: rgb(62, 151, 253);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Left Side*/
+
+.left-container {
+    width: 60%;
+}
+
+.left-container img {
+    padding: 2rem 1.5rem;
+}
+
+.left-container .snippet {
+    padding: 0 0 2rem 1.5rem;
+    width: 95%;
+}
+
+.left-container .qoute {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*Right Side*/
+
+.right-container {
+    padding-top: .875rem;
+    border-left: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+    margin-top: 2px;
+}
+
+.infocontainer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+}
+
+.infocontainer:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.right-container .imgcontainer {
+    max-width: 35%;
+    height: auto;
+}
+
+.right-container .snippet {
+    padding: 0 0 0 1rem;
+    width: 65%;
+}
+
+/**Courses**/
+
+.courses {
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+}
+
+/***Mobile Styles***/
